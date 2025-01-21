@@ -1,0 +1,29 @@
+Absolutely, here's a simple HTML form example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+```
+
+This form will have fields for a user's name, email, and a message. When the user submits the form, it will send the data to the `/submit-form` URL using the POST method. You can adjust the `action` attribute to point to the appropriate URL where you'll handle the form submission.
+
+If you have any questions or need further customization, feel free to ask!
